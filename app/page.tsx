@@ -376,7 +376,7 @@ export default function FraternityPage() {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Apply for Mentorship
+                    Sign Up to Become a Mentor
                     <ExternalLink className="w-4 h-4 ml-2" />
                   </a>
                 </Button>
