@@ -462,10 +462,10 @@ export default function FraternityPage() {
                 <div className="space-y-8">
                   {chapterContent.history.timeline.map((item) => (
                     <div key={`${item.year}-${item.title}`} className="relative pl-20">
-                      <div className="absolute left-0 w-16 text-right">
+                      <div className="absolute left-0 w-16 text-right top-3">
                         <span className="text-sm font-bold text-primary">{item.year}</span>
                       </div>
-                      <div className="absolute left-[30px] w-3 h-3 bg-primary rounded-full border-2 border-background" />
+                      <div className="absolute left-[26px] top-[14px] w-3 h-3 bg-primary rounded-full border-2 border-background" />
                       <Card>
                         <CardHeader className="pb-2">
                           <CardTitle className="text-base">{item.title}</CardTitle>
