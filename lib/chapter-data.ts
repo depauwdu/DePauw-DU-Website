@@ -16,23 +16,23 @@ export const chapterContent = {
 
   about: {
     eyebrow: "About Delta Upsilon",
-    title: "More than a fraternity. A modern brotherhood with a public mission.",
+    title: "A Brotherhood Built on Public Values",
     paragraphs: [
-      "Delta Upsilon is the sixth oldest international, all-male, college Greek-letter organization and the oldest non-secret fraternity in North America. That history matters because it gives the chapter a clear identity that reaches well beyond campus.",
-      "DU's non-secret heritage is one of its strongest points of difference. Its values, mission, and principles are open to the public, which means the chapter can speak clearly about what it stands for: Building Better Men through friendship, character, culture, justice, leadership, service, and lifelong growth.",
+      "Founded in 1834 at Williams College, Delta Upsilon is one of the oldest men's college fraternities in North America and the first founded as non-secret. DU's identity is rooted in a simple idea: our values should be known, our mission should be visible, and our brotherhood should be judged by the way we live.",
+      "At DePauw, Delta Upsilon has carried that legacy forward since 1887. Guided by the principles of Friendship, Character, Culture, and Justice, the chapter is committed to building better men through leadership, service, brotherhood, and lifelong growth.",
     ],
     heritageCards: [
       {
-        title: "Oldest Non-Secret Fraternity",
-        text: "DU's rituals, values, and mission are open and public. That transparency sets a different tone from the start.",
+        title: "Public Values",
+        text: "Our principles are not hidden. DU brothers are challenged to live openly, lead with character, and represent the fraternity through their actions.",
       },
       {
-        title: "Building Better Men",
-        text: "The chapter should emphasize growth, responsibility, service, and leadership development instead of relying on generic fraternity language.",
+        title: "Better Men, Better Leaders",
+        text: "The chapter experience is built around growth: becoming a better friend, student, leader, servant, and brother.",
       },
       {
-        title: "A DePauw Legacy Since 1887",
-        text: "The DePauw chapter has been part of campus life for well over a century, which gives real depth to the house story and alumni connection.",
+        title: "DePauw DU Since 1887",
+        text: "For more than a century, DePauw DU has been part of campus life, connecting generations of brothers through the chapter, the house, and the alumni network.",
       },
     ],
   },
@@ -279,7 +279,6 @@ export const chapterContent = {
 
   contactDetails: [
     { label: "Chapter House", value: "626 East Seminary Street, Greencastle, IN 46135" },
-    { label: "Best Use", value: "Recruitment, alumni, family, and giving questions" },
-    { label: "How to Update", value: "Edit the content in lib/chapter-data.ts to keep the page current" },
+    { label: "Email", value: "depauwdu@gmail.com" },
   ],
 };
