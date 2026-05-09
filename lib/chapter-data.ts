@@ -5,13 +5,6 @@ export const chapterContent = {
   hero: {
     eyebrow: "Building Better Men Since 1887",
     title: "The DePauw Chapter of Delta Upsilon",
-    lead: "The DePauw Chapter of Delta Upsilon is a brotherhood built on friendship, character, culture, justice, leadership, service, and lifelong connection. Established at DePauw in 1887, the chapter reflects DU's mission of Building Better Men through service, leadership development, and personal growth.",
-    stats: [
-      { value: "1887", label: "Established at DePauw University" },
-      { value: "1834", label: "Founded nationally at Williams College" },
-      { value: "Old Gold", label: "and Sapphire Blue define the chapter colors" },
-    ],
-    badges: ["Non-Secret Heritage", "Leadership", "Service"],
   },
 
   about: {
@@ -62,81 +55,13 @@ export const chapterContent = {
     ],
   },
 
-  brotherhood: {
-    eyebrow: "Brotherhood",
-    title: "More Than a House. A Brotherhood.",
-    description:
-      "This section should show what it feels like to be a DU at DePauw: close friendships, active traditions, campus involvement, and the kind of chapter life that keeps alumni connected long after graduation.",
-    experiences: [
-      {
-        title: "House Traditions",
-        text: "Use this space to highlight the role of 626 East Seminary in chapter culture: everyday life, chapter meetings, meals, traditions, and memories that become part of the alumni story.",
-      },
-      {
-        title: "Campus Life and Little 5",
-        text: "Show the energy of DU through intramurals, Little 5, family weekend, social events, and the moments that make the chapter feel active and visible on campus.",
-      },
-      {
-        title: "Academic and Leadership Support",
-        text: "Brotherhood should also look like mentorship, accountability, academic encouragement, and members stepping into leadership roles across the chapter and the university.",
-      },
-    ],
-  },
-
-  geography: {
-    eyebrow: "Brotherhood Footprint",
-    title: "Brothers from across the country and around the world.",
-    description:
-      "A map is one of the strongest ways to show that the chapter brings together men from different backgrounds and places. Visitors should be able to click pins and immediately see the breadth of the brotherhood.",
-    highlights: [
-      { value: "National", label: "reach across the United States" },
-      { value: "Global", label: "space to showcase international brothers" },
-      { value: "Interactive", label: "click pins to reveal hometowns and stories" },
-    ],
-    origins: [] as {
-      id: string;
-      label: string;
-      shortLabel?: string;
-      lat: number;
-      lng: number;
-      count: string;
-      blurb: string;
-      examples: string[];
-    }[],
-  },
-
-  academics: {
-    eyebrow: "Academics",
-    title: "A chapter with real academic breadth.",
-    description:
-      "A majors box works best when it gives one strong number and then backs it up with visible variety. This helps prospective members, families, and alumni immediately see that the chapter is serious, diverse, and well-rounded.",
-    majorsCount: "20+",
-    majorsLabel: "majors and interdisciplinary programs represented across the chapter",
-    groups: [
-      {
-        name: "Business and Economics",
-        majors: ["Economics", "Accounting", "Management", "Finance"],
-      },
-      {
-        name: "STEM and Analytics",
-        majors: ["Computer Science", "Data Science", "Biochemistry", "Mathematics"],
-      },
-      {
-        name: "Humanities and Social Sciences",
-        majors: ["Political Science", "History", "Philosophy", "Psychology"],
-      },
-      {
-        name: "Creative and Pre-Professional",
-        majors: ["Communication", "Media Studies", "Music", "Pre-Law", "Pre-Med"],
-      },
-    ],
-  },
+ 
 
   alumni: {
     eyebrow: "Alumni Network",
     title: "A Brotherhood That Lasts Beyond DePauw",
     description:
-      "DePauw DU is a lifelong network of brothers connected by shared history, mentorship, service, and pride in the chapter. Whether you want to mentor an undergraduate brother, reconnect with alumni, read the latest chapter news, or support the house at 626 East Seminary, there is always a way to stay involved.",
+      "The DePauw Chapter of Delta Upsilon is a lifelong network of brothers connected by shared history, mentorship, service, and pride in the chapter. Whether you want to mentor an undergraduate brother, reconnect with alumni, read the latest chapter news, or support the house at 626 East Seminary, there is always a way to stay involved.",
     features: [
       {
         title: "Become a Mentor",
@@ -158,67 +83,6 @@ export const chapterContent = {
         text: "Help preserve the house, strengthen the brotherhood, and invest in the next generation of DePauw DU brothers.",
         href: "https://www.deltau.org/depauw",
       },
-    ],
-  },
-
-  recruitment: {
-    eyebrow: "Recruitment",
-    title: "For men who want more than a social experience.",
-    description:
-      "Recruitment should speak directly to students who want to lead, serve, grow, and contribute to something bigger than themselves. Make it clear that DU is looking for men who value accountability, public values, campus involvement, and lifelong brotherhood.",
-    points: [
-      "Leadership and service over empty status",
-      "Brotherhood without secrecy",
-      "Academic and personal support",
-      "Access to a lifelong alumni network",
-    ],
-    cta: "Interested in Joining? Contact Recruitment",
-  },
-
-  families: {
-    eyebrow: "Parents and Families",
-    title: "A values-based chapter families can understand and trust.",
-    description:
-      "This section helps parents and families understand that DU is not only social. It is developmental, values-driven, and built around public principles, leadership, service, academic expectations, and alumni mentorship.",
-    items: [
-      "What DU stands for and why its non-secret heritage matters",
-      "Values-based brotherhood and clear expectations",
-      "Academic support and leadership opportunities",
-      "Family Weekend, chapter contact points, and ways to ask questions",
-    ],
-  },
-
-  philanthropy: {
-    eyebrow: "Service and Philanthropy",
-    title: "Leadership in service should be visible and measurable.",
-    description:
-      "DU's mission includes service and leadership development, so this section should show what the chapter is doing locally: philanthropy, campus service, Little 5 fundraising, and the impact of chapter-wide effort.",
-    initiatives: [
-      "Little 5 fundraiser support",
-      "United Way of Central Indiana youth literacy fundraising",
-      "Community service events",
-      "Campus service and philanthropy updates",
-    ],
-    fundraiser: {
-      title: "Support DU Little 5",
-      text: "Our riders have been training hard, and every dollar raised supports United Way of Central Indiana's youth literacy work while also contributing to our Little 5 competition effort.",
-      progressLabel: "Fundraising Goal",
-      progressValue: 68,
-    },
-  },
-
-  leadership: {
-    eyebrow: "Leadership",
-    title: "A chapter that looks organized, accountable, and approachable.",
-    description:
-      "Show the executive board and key chairs with photos, class year, major, hometown, and a contact path. Even placeholder cards help the page feel more complete and trustworthy.",
-    officers: [
-      { role: "President", name: "Add Name", year: "Class Year", major: "Major", hometown: "Hometown" },
-      { role: "Vice President", name: "Add Name", year: "Class Year", major: "Major", hometown: "Hometown" },
-      { role: "Recruitment Chair", name: "Add Name", year: "Class Year", major: "Major", hometown: "Hometown" },
-      { role: "Alumni Relations Chair", name: "Add Name", year: "Class Year", major: "Major", hometown: "Hometown" },
-      { role: "Philanthropy Chair", name: "Add Name", year: "Class Year", major: "Major", hometown: "Hometown" },
-      { role: "Academic Chair", name: "Add Name", year: "Class Year", major: "Major", hometown: "Hometown" },
     ],
   },
 
@@ -259,14 +123,13 @@ export const chapterContent = {
     eyebrow: "Giving",
     title: "Give Back to the Brotherhood That Built You",
     description:
-      "The DePauw DU experience does not end at graduation. Your support helps preserve the house at 626 East Seminary, strengthen the undergraduate chapter, and carry forward a brotherhood that has shaped generations of DePauw men.",
+      "For more than 135 years, the DePauw Chapter of Delta Upsilon has been a home for friendship, leadership, service, and lifelong connection. Since our founding at DePauw in 1887, generations of DU brothers have carried forward Delta Upsilon's mission of Building Better Men while contributing to the DePauw community and staying connected long after graduation.Support for the chapter helps us continue that legacy. Contributions allow us to invest in the chapter house and facilities, undergraduate experiences, support leadership development, and preserve the traditions that have made Delta Upsilon such an important part of DePauw for more than a century.",
     url: "https://www.deltau.org/depauw",
     buttonLabel: "Give to DePauw DU",
-    allowEmbed: false,
     reasons: [
-      "Preserve the House — Protect and improve the chapter home at 626 East Seminary.",
+      "Preserve the House — Protect and improve the chapter house.",
       "Support Student Leaders — Invest in leadership, service, programming, and undergraduate opportunities.",
-      "Carry the Legacy Forward — Help keep DePauw DU strong for the brothers who come next.",
+      "Carry the Legacy Forward — Help keep the DePauw Chapter strong for the brothers who come next.",
     ],
   },
 
