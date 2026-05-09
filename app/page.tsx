@@ -363,7 +363,7 @@ export default function FraternityPage() {
                   <p className="text-sm font-medium opacity-70 uppercase tracking-wide mb-2">
                     Alumni Mentorship Program
                   </p>
-                  <h3 className="text-2xl font-bold mb-2">Connect With a DePauw DU Mentor</h3>
+                  <h3 className="text-2xl font-bold mb-2">Connect with the current undergraduates</h3>
                   <p className="opacity-90 max-w-xl">
                     Our alumni mentorship program connects undergraduate brothers with DU alumni
                     who can offer guidance on careers, internships, graduate school, leadership,
