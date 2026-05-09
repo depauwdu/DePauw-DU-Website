@@ -425,9 +425,9 @@ export default function FraternityPage() {
               </p>
             </div>
 
-            <div className="flex gap-4 overflow-x-auto pb-4">
+            <div className="flex gap-6 overflow-x-auto pb-4">
               {galleryImages.map((image) => (
-                <div key={image.id} className="flex-shrink-0 w-80 aspect-[4/3] rounded-xl overflow-hidden">
+                <div key={image.id} className="flex-shrink-0 w-[560px] aspect-[4/3] rounded-xl overflow-hidden">
                   <img
                     src={image.src}
                     alt={image.alt}
