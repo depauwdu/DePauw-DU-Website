@@ -90,7 +90,7 @@ export const chapterContent = {
     eyebrow: "History of DePauw DU",
     title: "A Legacy Since 1887",
     description:
-      "This timeline connects Delta Upsilon's national founding, DePauw's own history, the chapter house at 626 East Seminary, and the brothers who continue carrying the legacy forward today.",
+      "This timeline connects Delta Upsilon's national founding, DePauw's own history, the chapter house, and the brothers who continue carrying the legacy forward today.",
     timeline: [
       {
         year: "1834",
